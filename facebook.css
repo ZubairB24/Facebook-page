@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(211, 211, 211,0.3);
+    font-family: system-ui, 
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2{
+    font-size: 50px;
+    color: blue;
+}
+.paragraph{
+    font-size: 30px;
+   
+}
+
+.container{
+    display: flex;
+    gap: 2rem;
+    padding: 6rem 18rem;
+}
+
+.login{
+    padding: 10px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0.1px 0.1px 2px 2px rgba(128, 128, 128, 0.2);
+    text-align: center;
+}
+
+input{
+    font-size: 14px;
+    display: flex;
+    padding: 16px 90px;
+    border-radius:4px;
+    border-color: lightgray;
+}
+
+
+
+.logbt{
+    background: blue;
+    border: none;
+    padding: 14px 155px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.logbt,input,p,button{
+    margin: 10px;
+}
+
+button{
+    font-size: 20px;
+    background: rgb(107, 177, 3);
+    border: none;
+    padding: 14px 20px;
+    border-radius: 5px;
+    color: white;
+}
